@@ -7,6 +7,29 @@
   padding: 0;
   box-sizing: border-box;
 }
-.menu-items{
-  color: rgb(151, 216, 216);
+
+
+
+.menu-link{
+  color: darkgray;
+  cursor: pointer;
+}
+.intro{
+  height: calc(100vh - 50px);
+}
+.brand{
+  color: green;
+}
+.btn{
+  background-color: green;
+}
+.btn:hover{
+  background-color: darkgreen;
+}
+.circle{
+  background-color: green;
+  border-radius: 100%;
+  width: 50%;
+  z-index: 999;
+  overflow: hidden;
 }
