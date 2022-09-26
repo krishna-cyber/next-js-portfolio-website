@@ -4,28 +4,27 @@ export const data =[
     name:"Design",
     title:"Design",
     disc:"Simply drag and drop photos and videos as required",
-    video:"Avocado.mp4",
-    photo:"asdasd.jpg"
+    image:"design.jpg"
   },
   {
     id:2,
     name:"Development",
     title:"Development",
     disc:"Simply drag and drop photos and videos as required",
-    photo:"dev.jpeg"
+    image:"dev.jpeg"
   },
   {
     id:3,
     name:"Production",
     title:"Production",
     disc:"Simply drag and drop photos and videos as required",
-    photo:"production.jpeg"
+    image:"production.jpeg"
   },
   {
     id:4,
     name:"Photography",
     title:"Photography",
     disc:"Simply drag and drop photos and videos as required",
-    photo:"photography.jpeg"
+    image:"photography.jpeg"
   }
 ]

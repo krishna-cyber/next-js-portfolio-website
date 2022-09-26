@@ -24,6 +24,6 @@ export default function Home({services}){
 export async function getStaticProps() {
   const services = await data;
   return {
-    props: {services : data}
+    props: {services:data}
   }
 }

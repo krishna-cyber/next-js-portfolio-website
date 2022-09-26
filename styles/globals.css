@@ -33,3 +33,36 @@
   z-index: 999;
   overflow: hidden;
 }
+
+.services-title{
+  width: fit-content;
+  padding: 4px;
+  border-bottom: 4px solid green;
+}
+.service-subtitle{
+  color: green;
+}
+.card{
+  height: 46%;
+  width: 46%;
+  background: whitesmoke;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.media{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.media:hover{
+  transform: scale(1.1);
+}
+.title{
+  letter-spacing: 6px;
+}
+.description{
+  position: absolute;
+  display: hidden;
+}
