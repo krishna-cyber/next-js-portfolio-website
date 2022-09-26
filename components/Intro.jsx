@@ -18,7 +18,8 @@ const Intro = () => {
         </div>
 
         <div className='w-1/2 flex flex-1 h-full p-20 relative'>
-        <Image src='/img/Avocado.png' height="100%" width="100%"
+        <Image src='/img/Avocado.png'
+        priority ={true}
         layout='fill'
         objectFit='cover'
          />
