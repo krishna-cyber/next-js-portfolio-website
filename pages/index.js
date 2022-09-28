@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
 import Services from '../components/Services'
+import Testinomials from '../components/Testinomials'
 import  {data}  from '../data'
 
 import styles from '../styles/Home.module.css'
@@ -17,6 +18,7 @@ export default function Home({services}){
       </Head>
       <Intro/>
       <Services services={services}/>
+      <Testinomials/>
     </div>
   )
 }

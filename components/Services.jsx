@@ -16,9 +16,9 @@ const Services = ({services}) => {
               <Link id={service.id} href={`/products`}>
               <div className="card w-1/2 flex relative items-center justify-center">
                 <span className='title top-3 left-3 text-lg text-slate-400 uppercase absolute'>{service.title}</span>
-                <div className="description">
-                  {service.disc}
-                </div>
+              
+                  <p className='description'>{service.disc}</p>
+          
                 <div className="media mt-3 p-10">
                 {
                   service.video?

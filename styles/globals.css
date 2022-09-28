@@ -27,11 +27,10 @@
   background-color: darkgreen;
 }
 .circle{
-  background-color: green;
   border-radius: 100%;
   width: 50%;
   z-index: 999;
-  overflow: hidden;
+  margin: auto;
 }
 
 .services-title{
@@ -46,7 +45,7 @@
   height: 46%;
   width: 46%;
   background: whitesmoke;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
 .media{
@@ -64,5 +63,33 @@
 }
 .description{
   position: absolute;
-  display: hidden;
+  opacity: 0;
+  background: rgb(234, 243, 235);
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.8s ease-in-out;
+  width: 44%;
+}
+.card:hover .description  {
+  opacity: 0.8;
+  z-index: 999;
+}
+
+
+.comment-cards{
+  width: 30%;
+  background: whitesmoke;
+  border-radius: 20px;
+}
+.avatar{
+  border-radius: 50%;
+}
+.footer{
+  border-top: 3px solid green;
+}
+.footer-title{
+  background: green;
+}
+.footer-subtitle{
+  text-decoration-color: green;
 }
